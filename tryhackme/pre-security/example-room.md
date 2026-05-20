@@ -8,9 +8,7 @@
 
 ---
 
-## Overview
-
-This is an example writeup showing the structure I follow. Replace this file with your actual writeups as you complete rooms.
+## Overview:
 
 The goal of writing these is not just to document solutions — it's to force myself to understand what I did and why it worked.
 

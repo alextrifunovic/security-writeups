@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Sensitive — never commit credentials, hashes, or personal data
+*.key
+*.pem
+credentials.txt
+*-password*
+notes-private/
+
+# Large binary files
+*.pcap
+*.iso

@@ -1,9 +1,6 @@
-# [Room Name]
-
-**Platform:** TryHackMe
-**Path:** [e.g., OWASP Top 10]
+**Path:** [ OWASP Top 10]
 **Difficulty:** Easy / Medium / Hard
-**Date:** YYYY-MM-DD
+**Date:** 
 **Tags:** `tag1` `tag2` `tag3`
 
 ---
@@ -14,9 +11,9 @@ Brief description of what this room covers. What is the goal? What technologies/
 
 ## Tools Used
 
-- Tool 1
-- Tool 2
-- Tool 3
+- 
+- 
+- 
 
 ---
 

@@ -1,11 +1,10 @@
 # ARP & Ethernet Switching — GRNVS Praxis Lab
 
-**Platform:** TUM Testbed
-**Course:** IN0010 GRNVS — Prof. Dr.-Ing. Georg Carle
-**Topics:** ARP, Ethernet Switching, Linux Bridge
-**Tags:** `ARP` `Ethernet` `Layer2` `tcpdump` `Wireshark` `Linux` `Networking`
-**Goal:** Configure a network topology, analyze ARP and ICMP traffic, 
-and enable communication between multiple nodes via a software-defined switch.
+**Platform:** TUM Testbed  
+**Course:** IN0010 GRNVS — Prof. Dr.-Ing. Georg Carle  
+**Topics:** ARP, Ethernet Switching, Linux Bridge  
+**Tags:** `ARP` `Ethernet` `Layer2` `tcpdump` `Wireshark` `Linux` `Networking`  
+**Goal:** Configure a network topology, analyze ARP and ICMP traffic, and enable communication between multiple nodes via a software-defined switch.
 
 ---
 
@@ -44,6 +43,19 @@ Successfully pinged between all nodes through the switch.
 - `bridge` — switching table inspection
 
 ---
+
+## Security Angle
+
+**ARP Spoofing**
+ARP has no authentication — any node can reply to an ARP request with a
+forged MAC address. This allows a Man-in-the-Middle attack where an
+attacker intercepts traffic intended for another node.
+
+Mitigation: Dynamic ARP Inspection (DAI) on managed switches, static ARP
+entries for critical hosts.
+
+---
+
 
 ## Lessons Learned
 
